@@ -1,0 +1,3 @@
+Client ID:  118545280909-jiv1nd0btgdf4j5a290pqb8t7jd3rfoc.apps.googleusercontent.com
+
+Client Secret: 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

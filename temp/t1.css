@@ -1,0 +1,54 @@
+
+.item {
+  height: 400px;
+  background: linear-gradient(#eae7dc, #eae7dc);
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+  border-top: 16px solid #e85a4f; 
+  box-shadow: 0 8px 14px 0 rgb(24 21 50 / 10%);
+}
+
+.item .additional {
+  position: absolute;
+  height: 65px;
+  width: 100%;
+  background: linear-gradient(#e98074, #e98074);
+  transition: height 0.4s;
+  overflow: hidden;
+  z-index: 2;
+  border-bottom: 1.5px solid #e85a4f;
+}
+
+.item:hover .additional {
+  height: 100%;
+}
+
+.item:hover .user-item {
+  text-decoration: underline;
+}
+
+.item .additional .user-item {
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+.item .additional .more-info {
+  height: 300px;
+  position: absolute;
+  top: 72px;
+  width: 100%;
+}
+
+
+.item .general {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 72px;
+  z-index: 1;
+  box-sizing: border-box;
+  background-color: #eae7dc;
+}
+
